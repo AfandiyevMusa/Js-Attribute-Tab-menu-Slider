@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row justify-content-center">
+        <div class="slider">
+            <div class="chevrons">
+                <i class="fa-solid fa-chevron-left left"></i>
+                <i class="fa-solid fa-chevron-right right"></i>
+            </div>
+            <div class="imags">
+                <div data-id = "1" class="eachimage active-img">
+                    <img src="./assets/imgs/1.jpeg" alt="">
+                    <span class="span">It is first slide</span>
+                </div>
+
+                <div data-id = "2" class="eachimage">
+                    <img src="./assets/imgs/2.jpeg" alt="">
+                    <span class="span d-none">It is second slide</span>
+                </div>
+
+                <div data-id="3" class="eachimage">
+                    <img src="./assets/imgs/3.jpeg" alt="">
+                    <span class="span d-none">It is third slide</span>
+                </div>
+
+                <img data-id = "1" src="./assets/imgs/1.jpeg" class="eachimage active-img" alt="">
+                <img data-id = "2" src="./assets/imgs/2.jpeg" class="eachimage" alt="">
+                <img data-id = "3" src="./assets/imgs/3.jpeg" class="eachimage" alt="">
+            </div>
+            <div class="dots">
+                <i data-id = "1" class="fa-solid fa-circle"></i>
+                <i data-id = "2" class="fa-solid fa-circle"></i>
+                <i data-id = "3" class="fa-solid fa-circle"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/ba8f3ff677.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(202, 202, 202);
+    overflow: hidden;
+}
+
+.slider{
+    padding-top: 200px;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+}
+
+.slider .imags img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.eachimage{
+    opacity: 0;
+}
+
+.slider .chevrons i{
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    z-index: 1;
+    cursor: pointer;
+    top: 460px;
+    opacity: 0.5;
+    transition: all 0.4s;
+}
+
+.slider .chevrons i:hover{
+    opacity: 1;
+}
+
+.slider .chevrons .left{
+    position: absolute;
+    z-index: 2;
+    left: 40px;
+}
+
+.slider .chevrons .right{
+    right: 20px;
+}
+
+.dots {
+    position: absolute;
+    z-index: 1;
+}
+
+.eachimage span{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 40px;
+    left: 400px;
+    top: 350px;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+.dots i{
+    font-size: 12px;
+    color: gray;
+    top: 440px;
+    left: 440px;
+    position: relative;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.dots i:hover{
+    color: whitesmoke;
+}
+
+.active-img{
+    opacity: 1 !important;
+}
+
+.active-dot{
+    color: white !important;
+}
+
